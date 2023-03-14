@@ -4,3 +4,7 @@ c=116.39
 d=a-b
 e=c-a
 d>=e #If the result is right, Rob travels further to Los Angeles. If not, Haining id further.
+X=True
+Y=False
+W=X and Y #W is false.
+Z=X or Y #Z is true.
