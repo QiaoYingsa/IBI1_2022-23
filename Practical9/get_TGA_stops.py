@@ -19,10 +19,6 @@ with open(input_file, 'r') as infile, open(output_file, 'w') as outfile:
         # Write gene name and sequence to output file
         outfile.write(f'>{gene_name}\n{sequence}\n')
 
-#print("Gene names and sequences with 'TGA' ending:")
-#with open(output_file, 'r') as resultfile:
-#    for line in resultfile:
-#        print(line.strip())
 
 
 
