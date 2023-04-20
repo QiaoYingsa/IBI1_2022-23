@@ -1,20 +1,11 @@
 def dna_coding_status(dna_sequence):
-    """
-    Determines the coding status of a given DNA sequence.
 
-    Args:
-        dna_sequence (str): DNA sequence to be analyzed.
-
-    Returns:
-        tuple: A tuple containing the coding status ('protein-coding', 'non-coding', or 'unclear')
-               and the percentage of the sequence that is coding (float).
-    """
     # Convert DNA sequence to uppercase for consistency
     dna_sequence = dna_sequence.upper()
 
     # Find the indices of the start and stop codons in the DNA sequence
     start_codon_index = dna_sequence.find('ATG')
-    stop_codon_index = dna_sequence.find('TGA')
+    stop_codon_index = dna_sequence.find('TGA',start_codon_index + 3)
 
     # If either start or stop codon is not found, return 'unclear' status
     if start_codon_index == -1 or stop_codon_index == -1:
@@ -37,7 +28,7 @@ def dna_coding_status(dna_sequence):
 
 
 # Example usage:
-dna_seq1 = 'ATGAGCGTAGCTGA'
+dna_seq1 = 'ATGTGATTAGCCTCA'
 dna_seq2 = 'TTTAGCGTAGCTGA'
 dna_seq3 = 'ATGCGTAGCTGA'
 coding_status1, coding_percentage1 = dna_coding_status(dna_seq1)
