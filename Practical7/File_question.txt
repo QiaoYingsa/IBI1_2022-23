@@ -1,0 +1,13 @@
+Question:
+
+Calculate and draw a bar plot showing the proportion of cases that have died in Germany and UK.
+
+Line number: This question is not explicitly addressed in the covid.py file, but it can be addressed after line 24 where the data for Germany and UK is filtered.
+
+Solution:
+
+To calculate the proportion of cases that have died in Germany and UK, we can use the following formula:
+death_proportion = total_deaths / total_cases
+The proportion of cases that have died in Germany is 0.9416439196937638%.
+The proportion of cases that have died in UK is 6.359243033286663%.
+
