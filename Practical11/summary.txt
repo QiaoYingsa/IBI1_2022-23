@@ -1,0 +1,18 @@
+
+Based on the alignment scores and the percentage of identical amino acids obtained from the three comparisons, here are the findings:
+
+Alignment score for human and mouse: 3412
+Percentage of identical amino acids: 82.11%
+
+Alignment score for human and cat: 3576
+Percentage of identical amino acids: 85.22%
+
+Alignment score for mouse and cat: 3397
+Percentage of identical amino acids: 81.74%
+
+Interpretation:
+From the findings, we can observe that the sequences of human and cat show the highest alignment score (3576) and the highest percentage of identical amino acids (85.22%) among all three comparisons. This suggests a closer relationship between the human and cat ACE2 sequences.
+
+On the other hand, the sequences of human and mouse exhibit a slightly lower alignment score (3412) and a slightly lower percentage of identical amino acids (82.11%). The sequences of mouse and cat also show similar alignment score (3397) and percentage of identical amino acids (81.74%).
+
+These findings imply that the ACE2 sequences in humans and cats are more closely related compared to humans and mice or mice and cats. It suggests a potential evolutionary relationship or a shared biological function between human and feline ACE2 proteins. Further research and analysis would be necessary to uncover the specific implications and significance of these findings in terms of species evolution, viral host interactions, or other relevant biological factors.
