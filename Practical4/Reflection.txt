@@ -1,1 +1,1 @@
-There are still many questions about making a webpage and its guidence. I will ask them in tutorial or next practical.
+I misundersood some of the guidance at first. Luckily, I understood the requirement correctly after second check. I was also not so clear about the usage of some of the commands,such as git add and git commit, then I asked my classmates for help and final solved them. This indicates the importance of second check and peer study.
