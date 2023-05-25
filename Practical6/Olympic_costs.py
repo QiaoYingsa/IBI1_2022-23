@@ -1,7 +1,7 @@
 #print the sorted values
 costs=[1,8,15,7,5,14,43,40]
 sorted_values=sorted(costs)
-print(sorted_values)
+print("sorted values:",sorted_values)
 
 #prepare the database
 import numpy as np
